@@ -1,3 +1,5 @@
+addpath(genpath(pwd))
+
 try
     run('queues/examples/classicTest.m');
     run('queues/examples/bufferTest.m');
