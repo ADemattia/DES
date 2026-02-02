@@ -19,4 +19,4 @@ jobs:
       - name: Run my selected tests
         uses: matlab-actions/run-command@v2
         with:
-          command: run_selected_tests
+          command: run_tests
