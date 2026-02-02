@@ -1,13 +1,3 @@
-# Attenzione importante sul branch *Improved* (15/07) 
-
-Il branch **Improved** contiene una versione migliore del progetto, caratterizzata da una maggiore chiarezza nella struttura del codice e da una generalizzazione. Non è più limitata esclusivamente alla simulazione di reti di code, ma supporta simulazioni ad eventi generali.  
-
-In questa versione è incluso un esempio di simulazione del modello epidemico SIR, oltre a quelli precedenti dedicati alle code.  
-
-Nei prossimi giorni verranno aggiunti un README dedicato e l’implementazione della dinamica **Best Response** per giochi.
-
----
-
 
 # Simulazione a Eventi Discreti di Reti di Code
 
