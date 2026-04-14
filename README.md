@@ -27,7 +27,6 @@ The **simulator** maintains a global clock and a sorted event list. At each step
 - **MATLAB** R2020b or later
 - **Statistics and Machine Learning Toolbox** - used for `makedist` and `random`
 
----
 
 ## Getting Started
 
