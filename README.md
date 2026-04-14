@@ -22,6 +22,11 @@ DES/
 
 The **simulator** maintains a global clock and a sorted event list. At each step it extracts the earliest event, advances the clock to that instant, executes the corresponding agent, and propagates any secondary effects before moving to the next event.
 
+## Requirements
+
+- **MATLAB** R2020b or later
+- **Statistics and Machine Learning Toolbox** - used for `makedist` and `random`
+
 ---
 
 ## Modules
@@ -209,11 +214,6 @@ gm.displayStats(adjacencyMatrix);
 ```
 
 ---
-
-## Requirements
-
-- **MATLAB** R2020b or later
-- **Statistics and Machine Learning Toolbox** - used for `makedist` and `random`
 
 ## License
 
