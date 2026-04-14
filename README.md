@@ -29,6 +29,20 @@ The **simulator** maintains a global clock and a sorted event list. At each step
 
 ---
 
+## Getting Started
+
+```bash
+git clone https://github.com/ADemattia/DES.git
+cd DES
+```
+
+```matlab
+setup                                    % adds all folders to the MATLAB path
+run('queues/examples/gasStation.m')      % run any example
+```
+
+---
+
 ## Modules
 
 ### Queueing Networks
@@ -78,20 +92,6 @@ The `gameManager` tracks the full strategy trajectory and provides an interactiv
 |---|---|
 | `majorityGame.m` | Coordination - players match the majority of neighbors |
 | `publicGood.m` | Cooperation - players decide whether to contribute to a common pool |
-
----
-
-## Getting Started
-
-```bash
-git clone https://github.com/ADemattia/DES.git
-cd DES
-```
-
-```matlab
-setup                                    % adds all folders to the MATLAB path
-run('queues/examples/gasStation.m')      % run any example
-```
 
 ---
 
